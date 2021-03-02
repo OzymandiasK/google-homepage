@@ -1,0 +1,114 @@
+<style>
+    a {
+        color: rgba(0, 0, 0, 0.87)
+    }
+
+    html, body {
+        height: 100%;
+        
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #navigation-bar {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 3%;
+    }
+
+    #navigation-bar a {
+        margin: 5px;
+    }
+
+    #navigation-bar img.top-image {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%; 
+
+    }
+    #middle {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    #languages {
+        text-align: center;
+    }
+
+    #google-logo {
+        text-align: center;
+    }
+
+    #search-bar-container {
+        padding: 20px;
+        height: 40px;
+        text-align: center;
+    }
+    #google-search-bar {
+        border-radius: 15px;
+        color: rgb(230, 228, 228);
+        outline: 0;
+        width: 400px;
+        height: 20px;
+
+    }
+
+    #google-buttons {
+        display: flex;
+        border: 1px solid #f8f9fa;
+        font-size: 14px;
+        text-align: center;
+        user-select: none;
+        justify-content: center;
+    }
+
+    #button {
+        background-color: #f8f9fa;
+        cursor: pointer;
+        border-radius: 4px;
+        color: #3c4043;
+        margin: 11px 4px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        padding: 20px;
+
+    }
+
+    #Belgium, #bottom-row-elements {
+        background: #f2f2f288;
+    }
+
+    #Belgium {
+        padding: 15px 30px;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        border-bottom: 1px solid #dadce0;
+        font-size: 15px;
+        color: rgba(0, 0, 0, .54);
+
+    }
+
+    #bottom-row-elements {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px 30px;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        border-bottom: 1px solid #dadce0;
+        font-size: 15px;
+        color: rgba(0, 0, 0, .54);
+    }
+</style>
