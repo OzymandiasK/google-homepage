@@ -1,7 +1,7 @@
 First Web Dev project done following the OdinProject.com recommendations and recommended ressources.
 
 Main difficulties were:
--Understanding the importance of <div> tags.
+- Understanding the importance of <div> tags.
 - Differentiating between a Class and an ID.
 - Positionning elements on the page.
 
